@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 794a99be0c493ee4688dc31cebc438a5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Square_Normal
+    21300002: Square_Gold
+    21300004: Square_Gray
+    21300006: Circle_Nromal
+    21300008: Circle_Gold
+    21300010: Circle_Gray
+    21300012: Circle_Locked
+    21300014: Circle_House
+    21300016: Circle_House_Gold
+    21300018: Circle_House_Gray
+    21300020: Circle_Cross
+    21300022: Circle_Cross_Gold
+    21300024: Circle_Cross_Gray
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Square_Normal
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5935
+        width: 402
+        height: 175
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Square_Gold
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 5935
+        width: 402
+        height: 175
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 35, z: 23, w: 24}
+    - name: Square_Gray
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 5935
+        width: 402
+        height: 175
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Nromal
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 5661
+        width: 215
+        height: 230
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Gold
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 5660
+        width: 215
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Gray
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 5660
+        width: 212
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Locked
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 5660
+        width: 214
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_House
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 5361
+        width: 218
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_House_Gold
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 5361
+        width: 217
+        height: 232
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_House_Gray
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 5361
+        width: 215
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Cross
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 2495
+        width: 218
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Cross_Gold
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 2495
+        width: 216
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle_Cross_Gray
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 2495
+        width: 215
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
