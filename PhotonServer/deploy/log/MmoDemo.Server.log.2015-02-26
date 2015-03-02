@@ -1,0 +1,4 @@
+2015-02-26 11:21:57,012 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-02-26 11:28:45,921 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-02-26 11:28:47,918 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-02-26 19:48:57,898 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 

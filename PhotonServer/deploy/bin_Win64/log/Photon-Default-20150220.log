@@ -1,0 +1,136 @@
+3752: 12:54:22.655 - ---
+3752: 12:54:22.655 - Service: "Photon Socket Server" starting
+3752: 12:54:22.655 - Config File: C:\Users\Tim\Downloads\PhotonServer\deploy\bin_Win64\PhotonServer.config
+3752: 12:54:22.655 - Will produce at most: 10 crash dumps
+3752: 12:54:22.655 - Action: run as service
+1084: 12:54:22.873 - Server Starting...
+1084: 12:54:23.029 -    Tick count: 120713 (wraps in: 49.7089 days)
+1084: 12:54:23.029 - Tick count 64: 120869
+1084: 12:54:23.029 - Photon Version: 3.4.5.2597
+1084: 12:54:23.029 - PID: 3744
+1084: 12:54:23.263 - Current directory is: C:\Windows\system32
+1084: 12:54:23.263 - Changing current directory to: C:\Users\Tim\Downloads\PhotonServer\deploy\bin_Win64
+1084: 12:54:23.263 - Config File: C:\Users\Tim\Downloads\PhotonServer\deploy\bin_Win64\PhotonServer.config
+1084: 12:54:23.419 - Will NOT log unimportant exceptions
+1084: 12:54:25.010 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+1084: 12:54:25.073 - Shutdown timeout enabled: 30000ms
+1084: 12:54:25.447 - Starting I/O thread pool with 2 threads
+1084: 12:54:25.603 - Using Standard allocator
+1084: 12:54:25.681 - Max message size: 512000
+1084: 12:54:26.258 - Starting business logic thread pool with the following settings
+1084: 12:54:26.258 - InitialThreads: 4 threads
+1084: 12:54:26.258 - MinThreads: 4 threads
+1084: 12:54:26.258 - Thread pool is fixed size
+1084: 12:54:26.258 - Starting ENet thread pool with the following settings
+1084: 12:54:26.258 - InitialThreads: 2 threads
+1084: 12:54:26.258 - MinThreads: 2 threads
+1084: 12:54:26.258 - Thread pool is fixed size
+1084: 12:54:26.258 - OnlyDispatchTimers: False
+1084: 12:54:26.258 - S2S: flow control: Max pending writes: 50
+1084: 12:54:26.258 - S2S: flow control: Max queued buffers: 200
+1084: 12:54:26.430 - S2S: flow control: Max pending writes MUX: 500
+1084: 12:54:26.430 - S2S: flow control: Max queued buffers MUX: 2000
+1084: 12:54:26.430 - S2S: MaxInboundMessageSize: 512000
+1084: 12:54:26.430 - S2S: MaxOutboundMessageSize: 512000
+1084: 12:54:26.430 - S2S: No inactivity timeout
+1084: 12:54:27.740 - WebSocket S2S: MaxInboundMessageSize: 512000
+1084: 12:54:27.740 - WebSocket S2S: MaxOutboundMessageSize: 512000
+1084: 12:54:27.740 - WebSocket S2S: No inactivity timeout
+1084: 12:54:27.990 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+1084: 12:54:27.990 - Per peer bandwidth limit
+1084: 12:54:27.990 - Transmit Rate Limit: 256 KB/Sec
+1084: 12:54:27.990 - Limit period: 200ms
+1084: 12:54:27.990 - Limit per period: 52428 bytes
+1084: 12:54:27.990 - Max queued data for transmission per peer: 512000 bytes
+1084: 12:54:27.990 - Minimum retransmit timeout: 200
+1084: 12:54:27.990 - Minimum ENet timeout: 5000ms
+1084: 12:54:27.990 - Maximum ENet timeout: 30000ms
+1084: 12:54:27.990 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+1084: 12:54:27.990 - Outbound ENet: MaxInboundMessageSize: 512000
+1084: 12:54:27.990 - Outbound ENet: MaxOutboundMessageSize: 512000
+1084: 12:54:30.626 - GetRuntime - About to load CLR - versions available:
+1084: 12:54:30.626 - v2.0.50727
+1084: 12:54:30.626 - v4.0.30319
+1084: 12:54:30.626 - Configuration requests: "v2.0.50727"
+1084: 12:54:30.626 - About to load version: "v2.0.50727"
+1084: 12:54:38.411 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+1084: 12:54:38.411 - CLRBaseDirectory set to "C:\Users\Tim\Downloads\PhotonServer\deploy"
+1084: 12:54:38.411 - Optimising event broadcast for 20 or more peers
+1084: 12:54:38.504 - Start: About to load CLR - versions available:
+1084: 12:54:38.504 - v2.0.50727
+1084: 12:54:38.504 - v4.0.30319
+1084: 12:54:38.504 - No preference in configuration file, will load latest.
+1084: 12:54:38.504 - About to load version: "v4.0.30319"
+1084: 12:54:38.520 - Loaded version: "v4.0.30319"
+1084: 12:55:12.912 - Photon host runtime loaded
+1084: 12:55:28.837 - License is valid.
+1084: 12:55:28.837 - Licensed for 100 concurrent connections.
+1084: 12:55:28.837 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+1084: 12:55:28.837 - ENet: Per peer bandwidth limit
+1084: 12:55:28.837 - ENet: Transmit Rate Limit: 256 KB/Sec
+1084: 12:55:28.837 - ENet: Limit period: 200ms
+1084: 12:55:28.837 - ENet: Limit per period: 52428 bytes
+1084: 12:55:28.837 - ENet: Max queued data for transmission per peer: 512000 bytes
+1084: 12:55:28.837 - ENet: Minimum retransmit timeout: 200
+1084: 12:55:28.837 - ENet: Minimum timeout: 5000ms
+1084: 12:55:28.837 - ENet: Maximum timeout: 30000ms
+1084: 12:55:28.837 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+1084: 12:55:28.837 - About to load application: Lite from Lite
+1084: 12:55:28.837 - Auto restart is enabled for application, existing connections will be terminated during restart
+1084: 12:55:28.837 - Application will restart 1000ms after the last change detected
+1084: 12:55:28.837 - Application will restart if files matching the following are changed: "dll;config"
+1084: 12:55:28.837 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1084: 12:55:31.738 - Taking reference on default app domain
+1084: 12:55:34.031 - Application: "Lite" started in app domain: 2
+1084: 12:55:34.031 - About to load application: LiteLobby from LiteLobby
+1084: 12:55:34.031 - Auto restart is enabled for application, existing connections will be terminated during restart
+1084: 12:55:34.031 - Application will restart 1000ms after the last change detected
+1084: 12:55:34.031 - Application will restart if files matching the following are changed: "dll;config"
+1084: 12:55:34.031 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1084: 12:55:35.529 - Taking reference on default app domain
+1084: 12:55:36.715 - Application: "LiteLobby" started in app domain: 3
+1084: 12:55:36.715 - About to load application: MmoDemo from Photon.MmoDemo.Server
+1084: 12:55:36.715 - Auto restart is enabled for application, existing connections will be terminated during restart
+1084: 12:55:36.715 - Application will restart 1000ms after the last change detected
+1084: 12:55:36.715 - Application will restart if files matching the following are changed: "dll;config"
+1084: 12:55:36.715 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1084: 12:55:37.510 - Taking reference on default app domain
+1084: 12:55:38.337 - Application: "MmoDemo" started in app domain: 4
+1084: 12:55:38.337 - About to load application: CounterPublisher from CounterPublisher
+1084: 12:55:38.337 - Auto restart is enabled for application, existing connections will be terminated during restart
+1084: 12:55:38.337 - Application will restart 1000ms after the last change detected
+1084: 12:55:38.337 - Application will restart if files matching the following are changed: "dll;config"
+1084: 12:55:38.337 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1084: 12:55:39.023 - Taking reference on default app domain
+1084: 12:55:40.115 - Application: "CounterPublisher" started in app domain: 5
+1084: 12:55:40.115 - About to load application: ATServer from ATServer
+1084: 12:55:40.115 - Auto restart is enabled for application, existing connections will be terminated during restart
+1084: 12:55:40.115 - Application will restart 1000ms after the last change detected
+1084: 12:55:40.115 - Application will restart if files matching the following are changed: "dll;config"
+1084: 12:55:40.115 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1084: 12:55:41.161 - Taking reference on default app domain
+1084: 12:55:42.565 - Application: "ATServer" started in app domain: 6
+1084: 12:55:42.565 - Adding TCP listener on :0.0.0.0: 4530 with a listen backlog of: 150
+1084: 12:55:42.565 - TCP inactivity timeout: 10000ms
+1084: 12:55:42.565 - TCP disconnect timeout: 120000ms
+1084: 12:55:42.565 - MaxInboundMessageSize: 512000
+1084: 12:55:42.565 - MaxOutboundMessageSize: 512000
+1084: 12:55:42.830 - Serving policy file requests from: "C:\Users\Tim\Downloads\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+1084: 12:55:42.861 - MaxInboundMessageSize: 512000
+1084: 12:55:42.861 - MaxOutboundMessageSize: 512000
+1084: 12:55:42.861 - UDP address specified as:0.0.0.0 adding listener to each available IPv4 address
+1084: 12:55:42.877 - Adding UDP listener on :192.168.1.3: 5055 with a listen backlog of: 500
+1084: 12:55:42.877 - Adding UDP listener on :127.0.0.1: 5055 with a listen backlog of: 500
+1084: 12:55:42.877 - Adding WebSocket TCP listener on :0.0.0.0: 9090 with a listen backlog of: 150
+1084: 12:55:42.877 - Nagle disabled
+1084: 12:55:42.877 - TCP inactivity timeout: 10000ms
+1084: 12:55:42.877 - MaxInboundMessageSize: 512000
+1084: 12:55:42.877 - MaxOutboundMessageSize: 512000
+1084: 12:55:42.877 - Forcing all applications ids to: "Lite"
+1084: 12:55:42.877 - Will accept ANY sub-protocols from the client
+1084: 12:55:42.877 - No automatic WebSocket ping
+1084: 12:55:42.908 - Adding Policy File listener on :0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Downloads\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+1084: 12:55:42.908 - TCP inactivity timeout: 10000ms
+1084: 12:55:42.908 - Adding Policy File listener on :0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Downloads\PhotonServer\deploy\Policy\assets\socket-policy-silverlight.xml"
+1084: 12:55:42.908 - TCP inactivity timeout: 10000ms
+1084: 12:55:43.064 - Service is running...

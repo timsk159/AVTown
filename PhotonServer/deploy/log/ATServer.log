@@ -1,0 +1,121 @@
+2015-02-19 10:03:10,958 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-19 12:48:40,188 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-19 12:48:40,344 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-19 21:19:12,664 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-19 22:43:25,169 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-19 22:43:25,793 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-20 12:55:43,485 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-21 01:10:30,518 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-21 01:10:30,564 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-21 11:49:36,234 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-21 15:11:35,613 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-21 15:11:36,019 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 09:49:53,048 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:47:37,682 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:47:37,724 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:47:37,760 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:49:02,350 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:49:02,379 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:49:02,381 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:49:25,702 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:49:25,730 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:49:25,733 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:51:53,423 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:51:53,451 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:51:53,454 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:53:12,136 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:53:12,166 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:53:12,166 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:53:30,861 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:53:30,891 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:53:30,891 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:53:44,553 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:53:44,583 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:53:44,583 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:55:19,484 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:55:19,511 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:55:19,514 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:55:41,545 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:55:41,574 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:55:41,576 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:56:28,542 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:56:28,571 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:56:28,573 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-22 18:56:35,608 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-22 18:56:35,637 [8] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-22 18:56:35,640 [8] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown()
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-23 01:00:15,557 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-23 01:00:16,914 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-23 16:10:49,323 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-24 00:38:29,320 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-24 00:38:30,084 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-24 11:08:04,922 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-24 23:03:34,544 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-24 23:03:35,526 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-25 14:48:56,829 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-25 23:12:23,915 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-25 23:12:24,414 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-26 11:19:44,657 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-26 11:28:45,921 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-26 11:28:46,046 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-26 19:48:12,236 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-27 00:52:52,375 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-27 00:52:52,453 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-27 09:59:48,034 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-02-27 19:02:32,562 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-02-27 19:02:33,670 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-02-28 10:31:54,854 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-03-01 00:33:21,187 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-03-01 00:33:26,304 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1122
+2015-03-01 09:59:37,227 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 
+2015-03-01 22:01:59,187 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=ATServer
+2015-03-01 22:02:00,092 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Downloads\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop()
+2015-03-02 09:40:43,193 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=ATServer; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\ATServer, Type=ATServer.PhotonServer 

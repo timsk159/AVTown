@@ -1,0 +1,19 @@
+2015-02-27 00:52:52,391 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-02-27 00:52:52,640 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-02-27 10:00:40,421 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-02-27 19:02:32,827 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-02-27 19:02:39,551 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-02-27 19:02:40,425 [4] ERROR ExitGames.Diagnostics.Monitoring.CounterSamplePublisher - Error during update.
+System.UnauthorizedAccessException: Access to the registry key '230' is denied.
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.InternalGetValue(String name, Object defaultValue, Boolean doNotExpand, Boolean checkSecurity)
+   at Microsoft.Win32.RegistryKey.GetValue(String name)
+   at System.Diagnostics.PerformanceMonitor.GetData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetPerformanceData(String item)
+   at System.Diagnostics.PerformanceCounterLib.GetCategorySample(String machine, String category)
+   at System.Diagnostics.PerformanceCounter.NextSample()
+   at System.Diagnostics.PerformanceCounter.NextValue()
+   at Photon.SocketServer.Diagnostics.CpuUsageCounterReader.GetNextValue()
+   at ExitGames.Diagnostics.Monitoring.CounterSamplePublisher.#e.#w.#vb(DateTime currentTimeStamp, CounterSample& counterSample)
+   at ExitGames.Diagnostics.Monitoring.CounterSamplePublisher.Update()
+   at ExitGames.Diagnostics.Monitoring.CounterSamplePublisher.#ub(Object )

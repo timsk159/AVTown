@@ -1,0 +1,78 @@
+2015-02-17 18:40:39,078 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-17 18:40:39,128 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-17 18:40:39,138 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-17 18:40:40,598 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-17 18:40:40,630 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-18 17:01:32,549 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-18 17:01:32,618 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-18 17:01:32,632 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-18 17:05:48,973 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-18 17:05:49,119 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-19 10:05:00,130 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-19 10:05:00,208 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-19 10:05:00,223 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-19 12:48:40,188 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-19 12:48:45,601 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-19 21:19:31,696 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-19 21:19:32,211 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-19 21:19:32,227 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-19 22:43:25,184 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-19 22:43:26,604 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-20 12:56:27,424 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-20 12:56:27,611 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-20 12:56:27,642 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-21 01:10:30,518 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-21 01:10:30,939 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-21 11:50:18,930 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-21 11:50:19,289 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-21 11:50:19,320 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-21 15:11:35,629 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-21 15:11:36,612 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-22 09:50:27,252 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-22 09:50:27,486 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-22 09:50:27,486 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-23 01:00:15,759 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-23 01:00:17,522 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-23 16:11:34,283 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-23 16:11:35,187 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-23 16:11:35,203 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-24 00:38:29,320 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-24 00:38:35,248 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-24 11:08:46,266 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-24 11:08:46,625 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-24 11:08:46,641 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-24 23:03:34,653 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-24 23:03:40,674 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-25 14:49:29,063 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-25 14:49:29,312 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-25 14:49:29,328 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-25 23:12:24,024 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-25 23:12:28,611 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-26 11:21:55,402 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-26 11:21:55,632 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-26 11:21:55,642 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-26 11:28:45,921 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-26 11:28:47,918 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-26 19:48:55,090 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-26 19:48:55,434 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-26 19:48:55,449 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-27 00:52:52,391 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-27 00:52:52,640 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-27 10:00:38,687 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-27 10:00:39,093 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-27 10:00:39,109 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-02-27 19:02:32,796 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-02-27 19:02:39,551 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-02-28 10:32:52,077 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-02-28 10:32:52,265 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-02-28 10:32:52,280 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-01 00:33:21,952 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-03-01 00:33:28,176 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-03-01 10:00:32,795 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-03-01 10:00:33,247 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-03-01 10:00:33,278 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-01 22:01:59,249 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=LiteLobby
+2015-03-01 22:02:04,834 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=LiteLobby
+2015-03-02 09:41:31,534 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=LiteLobby.LiteLobbyApplication
+2015-03-02 09:41:31,947 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=LiteLobby; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\LiteLobby, Type=LiteLobby.LiteLobbyApplication 
+2015-03-02 09:41:31,961 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
