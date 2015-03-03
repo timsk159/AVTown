@@ -9,5 +9,19 @@ namespace ATServer
 	class CharacterData
 	{
 
+
+        public CharacterData(){}
+
+        public CharacterData(string userName)
+        {
+
+        }
+
+        public CharacterData GetFromDB(string userName)
+        {
+
+
+            return new CharacterData();
+        }
 	}
 }

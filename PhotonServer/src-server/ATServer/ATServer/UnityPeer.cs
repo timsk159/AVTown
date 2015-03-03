@@ -35,7 +35,7 @@ namespace ATServer
 					var password = (string)operationRequest.Parameters[(byte)ParameterCode.Password];
 					if (CheckLoginDetails(username, password))
 					{
-
+                        log.Info("Successfully logged in user: " + username);
 					}
 					break;
 				default:

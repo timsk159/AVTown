@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 using ExitGames.Client.Photon;
+using ATCommon;
 
 public class PhotonServer : IPhotonPeerListener
 {
@@ -11,8 +13,21 @@ public class PhotonServer : IPhotonPeerListener
 		Unknown,
 	}
 
+    public event Action<EventData> OnServerEvent;
+    public event Action<OperationResponse> OnServerOperationResponse;
+    public event Action<StatusCode> OnServerConnectionChanged;
+
 	public ConnectionStatus status;
-	PhotonPeer peer;
+	
+    PhotonPeer _peer;
+
+    public PhotonPeer Peer
+    {
+        get
+        {
+            return _peer;
+        }
+    }
 
 	public PhotonServer()
 	{
@@ -27,12 +42,18 @@ public class PhotonServer : IPhotonPeerListener
 
 	public void OnEvent(EventData eventData)
 	{
-
+        if(OnServerEvent != null)
+        {
+            OnServerEvent(eventData);
+        }
 	}
 
 	public void OnOperationResponse(OperationResponse operationResponse)
 	{
-
+        if(OnServerOperationResponse != null)
+        {
+            OnServerOperationResponse(operationResponse);
+        }
 	}
 
 	public void OnStatusChanged(StatusCode statusCode)
@@ -53,22 +74,26 @@ public class PhotonServer : IPhotonPeerListener
 				status = ConnectionStatus.Unknown;
 				break;
 		}
+        if(OnServerConnectionChanged != null)
+        {
+            OnServerConnectionChanged(statusCode);
+        }
 	}
 	#endregion
 
 	public void Init(PhotonPeer peer, string serverAddress, string applicationName)
 	{
-		this.peer = peer;
-		this.peer.Connect(serverAddress, applicationName);
+		this._peer = peer;
+		this._peer.Connect(serverAddress, applicationName);
 	}
 
 	public void Disconnect()
 	{
-		peer.Disconnect();
+		_peer.Disconnect();
 	}
 
 	public void Update()
 	{
-		peer.Service();
+		_peer.Service();
 	}
 }
