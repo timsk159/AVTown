@@ -118,3 +118,23 @@ System.UnauthorizedAccessException: Access to the registry key '230' is denied.
 2015-03-02 09:41:27,045 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
 2015-03-02 09:41:27,310 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=CounterPublisher; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\CounterPublisher, Type=Photon.CounterPublisher.Application 
 2015-03-02 09:41:27,310 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 19:59:34,883 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 19:59:34,953 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=CounterPublisher; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\CounterPublisher, Type=Photon.CounterPublisher.Application 
+2015-03-03 19:59:34,963 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 19:59:37,003 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=CounterPublisher
+2015-03-03 19:59:37,153 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=CounterPublisher
+2015-03-03 20:00:25,063 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:00:25,133 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=CounterPublisher; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\CounterPublisher, Type=Photon.CounterPublisher.Application 
+2015-03-03 20:00:25,133 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:00:27,103 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=CounterPublisher
+2015-03-03 20:00:27,163 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=CounterPublisher
+2015-03-03 20:02:08,883 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:02:08,953 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=CounterPublisher; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\CounterPublisher, Type=Photon.CounterPublisher.Application 
+2015-03-03 20:02:08,963 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:02:10,833 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=CounterPublisher
+2015-03-03 20:02:10,883 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=CounterPublisher
+2015-03-03 20:05:57,069 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:05:57,139 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=CounterPublisher; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\CounterPublisher, Type=Photon.CounterPublisher.Application 
+2015-03-03 20:05:57,139 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:05:58,959 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=CounterPublisher
+2015-03-03 20:05:59,009 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=CounterPublisher

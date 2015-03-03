@@ -76,3 +76,23 @@
 2015-03-02 09:41:29,229 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=Lite.LiteApplication
 2015-03-02 09:41:30,180 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Lite; AppPath=C:\Users\Tim\Downloads\PhotonServer\deploy\Lite, Type=Lite.LiteApplication 
 2015-03-02 09:41:30,274 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 19:59:35,293 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=Lite.LiteApplication
+2015-03-03 19:59:35,413 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Lite; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Lite, Type=Lite.LiteApplication 
+2015-03-03 19:59:35,453 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 19:59:37,013 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Lite
+2015-03-03 19:59:37,163 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Lite
+2015-03-03 20:00:25,403 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=Lite.LiteApplication
+2015-03-03 20:00:25,523 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Lite; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Lite, Type=Lite.LiteApplication 
+2015-03-03 20:00:25,563 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:00:27,113 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Lite
+2015-03-03 20:00:27,163 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Lite
+2015-03-03 20:02:09,243 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=Lite.LiteApplication
+2015-03-03 20:02:09,363 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Lite; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Lite, Type=Lite.LiteApplication 
+2015-03-03 20:02:09,403 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:02:10,843 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Lite
+2015-03-03 20:02:10,883 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Lite
+2015-03-03 20:05:57,419 [1] INFO  Lite.LiteApplication [(null)] - Created application Instance: type=Lite.LiteApplication
+2015-03-03 20:05:57,539 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Lite; AppPath=C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Lite, Type=Lite.LiteApplication 
+2015-03-03 20:05:57,579 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-03-03 20:05:58,959 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Lite
+2015-03-03 20:05:59,009 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Lite

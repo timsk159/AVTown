@@ -1,0 +1,931 @@
+5420: 19:59:13.093 - ---
+5420: 19:59:13.093 - Service: "Photon Socket Server" starting
+5420: 19:59:13.093 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+5420: 19:59:13.093 - Will produce at most: 10 crash dumps
+5420: 19:59:13.093 - Action: install service
+5420: 19:59:13.153 - Service: "Photon Socket Server: Default" installed
+5420: 19:59:13.153 - Config File Path: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64"
+5420: 19:59:13.153 - Config File Name: ""
+5420: 19:59:13.153 - MessageBox: Photon Socket Server: Default - 3.4.5.2597
+
+Service installed
+
+Instance Name = "Default"
+5420: 19:59:15.433 - Service shutting down
+5420: 19:59:15.433 - Service shut down complete
+4836: 19:59:18.533 - ---
+4836: 19:59:18.533 - Service: "Photon Socket Server" starting
+4836: 19:59:18.533 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+4836: 19:59:18.533 - Will produce at most: 10 crash dumps
+4836: 19:59:18.533 - Action: run as service
+5492: 19:59:18.533 - Server Starting...
+5492: 19:59:18.533 -    Tick count: 3260920 (wraps in: 49.6725 days)
+5492: 19:59:18.533 - Tick count 64: 3260920
+5492: 19:59:18.533 - Photon Version: 3.4.5.2597
+5492: 19:59:18.533 - PID: 888
+5492: 19:59:18.533 - Current directory is: C:\Windows\system32
+5492: 19:59:18.533 - Changing current directory to: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64
+5492: 19:59:18.533 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+5492: 19:59:18.533 - Will NOT log unimportant exceptions
+5492: 19:59:18.543 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+5492: 19:59:18.543 - Shutdown timeout enabled: 30000ms
+5492: 19:59:18.543 - Starting I/O thread pool with 2 threads
+5492: 19:59:18.543 - Using Standard allocator
+5492: 19:59:18.543 - Max message size: 512000
+5492: 19:59:18.543 - Starting business logic thread pool with the following settings
+5492: 19:59:18.543 - InitialThreads: 4 threads
+5492: 19:59:18.543 - MinThreads: 4 threads
+5492: 19:59:18.543 - Thread pool is fixed size
+5492: 19:59:18.543 - Starting ENet thread pool with the following settings
+5492: 19:59:18.543 - InitialThreads: 2 threads
+5492: 19:59:18.543 - MinThreads: 2 threads
+5492: 19:59:18.543 - Thread pool is fixed size
+5492: 19:59:18.543 - OnlyDispatchTimers: False
+5492: 19:59:18.543 - S2S: flow control: Max pending writes: 50
+5492: 19:59:18.543 - S2S: flow control: Max queued buffers: 200
+5492: 19:59:18.543 - S2S: flow control: Max pending writes MUX: 500
+5492: 19:59:18.543 - S2S: flow control: Max queued buffers MUX: 2000
+5492: 19:59:18.543 - S2S: MaxInboundMessageSize: 512000
+5492: 19:59:18.543 - S2S: MaxOutboundMessageSize: 512000
+5492: 19:59:18.543 - S2S: No inactivity timeout
+5492: 19:59:18.553 - WebSocket S2S: MaxInboundMessageSize: 512000
+5492: 19:59:18.553 - WebSocket S2S: MaxOutboundMessageSize: 512000
+5492: 19:59:18.553 - WebSocket S2S: No inactivity timeout
+5492: 19:59:18.553 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+5492: 19:59:18.553 - Per peer bandwidth limit
+5492: 19:59:18.553 - Transmit Rate Limit: 256 KB/Sec
+5492: 19:59:18.553 - Limit period: 200ms
+5492: 19:59:18.553 - Limit per period: 52428 bytes
+5492: 19:59:18.553 - Max queued data for transmission per peer: 512000 bytes
+5492: 19:59:18.553 - Minimum retransmit timeout: 200
+5492: 19:59:18.553 - Minimum ENet timeout: 5000ms
+5492: 19:59:18.553 - Maximum ENet timeout: 30000ms
+5492: 19:59:18.553 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+5492: 19:59:18.553 - Outbound ENet: MaxInboundMessageSize: 512000
+5492: 19:59:18.553 - Outbound ENet: MaxOutboundMessageSize: 512000
+5492: 19:59:18.563 - GetRuntime - About to load CLR - versions available:
+5492: 19:59:18.563 - v2.0.50727
+5492: 19:59:18.563 - v4.0.30319
+5492: 19:59:18.563 - Configuration requests: "v2.0.50727"
+5492: 19:59:18.563 - About to load version: "v2.0.50727"
+5492: 19:59:18.583 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+5492: 19:59:18.583 - CLRBaseDirectory set to "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy"
+5492: 19:59:18.583 - Optimising event broadcast for 20 or more peers
+5492: 19:59:18.583 - Start: About to load CLR - versions available:
+5492: 19:59:18.583 - v2.0.50727
+5492: 19:59:18.583 - v4.0.30319
+5492: 19:59:18.583 - No preference in configuration file, will load latest.
+5492: 19:59:18.583 - About to load version: "v4.0.30319"
+5492: 19:59:18.583 - Loaded version: "v4.0.30319"
+5492: 19:59:19.373 - Photon host runtime loaded
+5492: 19:59:28.953 - License is valid.
+5492: 19:59:28.953 - Licensed for 100 concurrent connections.
+5492: 19:59:28.953 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+5492: 19:59:28.953 - ENet: Per peer bandwidth limit
+5492: 19:59:28.953 - ENet: Transmit Rate Limit: 256 KB/Sec
+5492: 19:59:28.953 - ENet: Limit period: 200ms
+5492: 19:59:28.953 - ENet: Limit per period: 52428 bytes
+5492: 19:59:28.953 - ENet: Max queued data for transmission per peer: 512000 bytes
+5492: 19:59:28.953 - ENet: Minimum retransmit timeout: 200
+5492: 19:59:28.953 - ENet: Minimum timeout: 5000ms
+5492: 19:59:28.953 - ENet: Maximum timeout: 30000ms
+5492: 19:59:28.953 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+5492: 19:59:28.963 - About to load application: Lite from Lite
+5492: 19:59:28.963 - Auto restart is enabled for application, existing connections will be terminated during restart
+5492: 19:59:28.963 - Application will restart 1000ms after the last change detected
+5492: 19:59:28.963 - Application will restart if files matching the following are changed: "dll;config"
+5492: 19:59:28.963 - Application will NOT restart if files matching the following are changed: "log4net.config"
+5380: 19:59:28.973 - Waiting to shutdown Photon.
+5492: 19:59:29.353 - Taking reference on default app domain
+5492: 19:59:29.633 - Application: "Lite" started in app domain: 2
+5492: 19:59:29.633 - About to load application: LiteLobby from LiteLobby
+5492: 19:59:29.633 - Auto restart is enabled for application, existing connections will be terminated during restart
+5492: 19:59:29.633 - Application will restart 1000ms after the last change detected
+5492: 19:59:29.633 - Application will restart if files matching the following are changed: "dll;config"
+5492: 19:59:29.633 - Application will NOT restart if files matching the following are changed: "log4net.config"
+5492: 19:59:29.883 - Taking reference on default app domain
+5380: 19:59:29.973 - Waiting to shutdown Photon.
+5492: 19:59:30.193 - Application: "LiteLobby" started in app domain: 3
+5492: 19:59:30.193 - About to load application: MmoDemo from Photon.MmoDemo.Server
+5492: 19:59:30.193 - Auto restart is enabled for application, existing connections will be terminated during restart
+5492: 19:59:30.193 - Application will restart 1000ms after the last change detected
+5492: 19:59:30.193 - Application will restart if files matching the following are changed: "dll;config"
+5492: 19:59:30.193 - Application will NOT restart if files matching the following are changed: "log4net.config"
+5492: 19:59:30.463 - Taking reference on default app domain
+5492: 19:59:30.813 - Application: "MmoDemo" started in app domain: 4
+5492: 19:59:30.813 - About to load application: CounterPublisher from CounterPublisher
+5492: 19:59:30.813 - Auto restart is enabled for application, existing connections will be terminated during restart
+5492: 19:59:30.813 - Application will restart 1000ms after the last change detected
+5492: 19:59:30.813 - Application will restart if files matching the following are changed: "dll;config"
+5492: 19:59:30.813 - Application will NOT restart if files matching the following are changed: "log4net.config"
+5380: 19:59:30.973 - Waiting to shutdown Photon.
+5492: 19:59:31.063 - Taking reference on default app domain
+5492: 19:59:31.283 - Application: "CounterPublisher" started in app domain: 5
+5492: 19:59:31.283 - About to load application: ATServer from ATServer
+5492: 19:59:31.283 - Auto restart is enabled for application, existing connections will be terminated during restart
+5492: 19:59:31.283 - Application will restart 1000ms after the last change detected
+5492: 19:59:31.283 - Application will restart if files matching the following are changed: "dll;config"
+5492: 19:59:31.283 - Application will NOT restart if files matching the following are changed: "log4net.config"
+5492: 19:59:31.523 - Taking reference on default app domain
+5492: 19:59:31.733 - Application: "ATServer" started in app domain: 6
+5492: 19:59:31.733 - Adding TCP listener on :0.0.0.0: 4530 with a listen backlog of: 150
+5492: 19:59:31.733 - TCP inactivity timeout: 10000ms
+5492: 19:59:31.733 - TCP disconnect timeout: 120000ms
+5492: 19:59:31.733 - MaxInboundMessageSize: 512000
+5492: 19:59:31.733 - MaxOutboundMessageSize: 512000
+5492: 19:59:31.733 - Serving policy file requests from: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+5492: 19:59:31.743 - MaxInboundMessageSize: 512000
+5492: 19:59:31.743 - MaxOutboundMessageSize: 512000
+5492: 19:59:31.743 - UDP address specified as:0.0.0.0 adding listener to each available IPv4 address
+5492: 19:59:31.743 - Adding UDP listener on :127.0.0.1: 5055 with a listen backlog of: 500
+5492: 19:59:31.743 - Adding WebSocket TCP listener on :0.0.0.0: 9090 with a listen backlog of: 150
+5492: 19:59:31.743 - Nagle disabled
+5492: 19:59:31.743 - TCP inactivity timeout: 10000ms
+5492: 19:59:31.743 - MaxInboundMessageSize: 512000
+5492: 19:59:31.743 - MaxOutboundMessageSize: 512000
+5492: 19:59:31.743 - Forcing all applications ids to: "Lite"
+5492: 19:59:31.743 - Will accept ANY sub-protocols from the client
+5492: 19:59:31.743 - No automatic WebSocket ping
+5492: 19:59:31.743 - Adding Policy File listener on :0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+5492: 19:59:31.743 - TCP inactivity timeout: 10000ms
+5492: 19:59:31.743 - Adding Policy File listener on :0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy-silverlight.xml"
+5492: 19:59:31.743 - TCP inactivity timeout: 10000ms
+5492: 19:59:31.773 - Service is running...
+5380: 19:59:31.973 - Waiting to shutdown Photon.
+5380: 19:59:32.973 - Waiting to shutdown Photon.
+5380: 19:59:33.973 - Waiting to shutdown Photon.
+5380: 19:59:34.973 - Waiting to shutdown Photon.
+5380: 19:59:35.973 - Waiting to shutdown Photon.
+5380: 19:59:36.973 - Shutdown request from PhotonHostRuntime: Connect to Photon License Server failed, can't verify floating license.
+5380: 19:59:36.973 - Shutdown requested.
+5492: 19:59:36.983 - Service is stopped...
+5492: 19:59:36.993 - Server shutting down...
+5492: 19:59:36.993 - Shutdown monitoring enabled, 30000ms before process abort
+5492: 19:59:36.993 - Notifying CLR applications of shutdown...
+5492: 19:59:36.993 - RequestApplicationStop: 6
+5492: 19:59:37.003 - RequestApplicationStop: 5
+5492: 19:59:37.003 - RequestApplicationStop: 2
+5492: 19:59:37.033 - RequestApplicationStop: 3
+5492: 19:59:37.033 - RequestApplicationStop: 4
+5492: 19:59:37.043 - RequestStop: defalt app domain
+5492: 19:59:37.043 - Shutting down WebSocket Outbound Connection Manager...
+5492: 19:59:37.043 - Shutting down TCP Outbound Connection Manager...
+5492: 19:59:37.043 - Shutting down ENet Outbound Connection Manager...
+5492: 19:59:37.043 - Disconnecting all outbound peers...
+5492: 19:59:37.043 - Shutting down ENet host...
+5492: 19:59:37.043 - Disconnecting all peers...
+5492: 19:59:37.043 - Shutting down socket servers...
+5492: 19:59:37.043 - Shutting down ENet thread pool...
+5492: 19:59:37.043 - Shutting down TCP inactivity timers...
+5492: 19:59:37.043 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+5492: 19:59:37.043 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+5492: 19:59:37.043 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+5492: 19:59:37.043 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+5492: 19:59:37.043 - WaitingForShutdownToComplete: TCP:0.0.0.0:4530
+5492: 19:59:37.043 - OnShutdownCompleted: TCP:0.0.0.0:4530
+5492: 19:59:37.043 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+5492: 19:59:37.043 - OnShutdownCompleted: UDP:127.0.0.1:5055
+5492: 19:59:37.043 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9090
+5492: 19:59:37.043 - OnShutdownCompleted: WebSocket:0.0.0.0:9090
+5492: 19:59:37.043 - Shutting down CLR applications...
+5492: 19:59:37.133 - ATServer:6 - Stop() failed.
+Exception:
+System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1130
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Stop()
+   at PhotonHostRuntime.PhotonDomainManager.Stop()
+1328: 19:59:37.153 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+5492: 19:59:37.173 - Shutting down business logic thread pool...
+5492: 19:59:37.173 - Shutting down I/O thread pool...
+5492: 19:59:37.173 - Destroying servers
+5492: 19:59:37.173 - Destroying WebSocket Outbound Connection Manager
+5492: 19:59:37.173 - Destroying TCP Outbound Connection Manager
+5492: 19:59:37.173 - Destroying TCP inactivity timer
+5492: 19:59:37.173 - Destroying ENet timer wheel
+5492: 19:59:37.173 - Destroying ENet host
+5492: 19:59:37.173 - Destroying ENet outbound host
+5492: 19:59:37.173 - Destroying HTTP inactivity timer
+5492: 19:59:37.173 - Destroying HTTP host
+5492: 19:59:37.173 - Flushing ENET buffer allocator...
+5492: 19:59:37.173 - Flushing TCP buffer handle allocator...
+5492: 19:59:37.173 - Flushing stream socket allocator...
+5492: 19:59:37.173 - Flushing inbound datagram socket allocator...
+5492: 19:59:37.173 - Flushing outbound datagram socket allocator...
+5492: 19:59:37.173 - Destroying CLR dispatcher
+5492: 19:59:37.173 - Destroying CLR applications
+5492: 19:59:37.173 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+1232: 19:59:37.193 - Unloading Domain: ApplicationName = 'CounterPublisher', DomainId='5'
+1328: 19:59:37.193 - CManagedHost::OnDomainUnload() - 5
+1328: 19:59:37.213 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+1232: 19:59:37.253 - Unloading Domain: ApplicationName = 'Lite', DomainId='2'
+1328: 19:59:37.253 - CManagedHost::OnDomainUnload() - 2
+1328: 19:59:37.263 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+1232: 19:59:37.293 - Unloading Domain: ApplicationName = 'LiteLobby', DomainId='3'
+1328: 19:59:37.293 - CManagedHost::OnDomainUnload() - 3
+1328: 19:59:37.303 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+1232: 19:59:37.323 - Unloading Domain: ApplicationName = 'MmoDemo', DomainId='4'
+1328: 19:59:37.323 - CManagedHost::OnDomainUnload() - 4
+5492: 19:59:47.173 - ~CCLRApplicationCollection() - CLR failed to release all COM objects. Photon peers and application sinks may have leaked
+5492: 19:59:47.173 - ~CManagedHost() - Release default app domain
+5492: 19:59:47.173 - CManagedHost::OnDomainUnload() - 1
+5492: 19:59:47.173 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+5492: 19:59:57.173 - ~CManagedHost() - Timeout waiting for CLR shutdown, we may report Photon peer leaks...
+5492: 19:59:57.173 - Release domain manager: 6
+5492: 19:59:57.173 - ~CManagedHost
+5492: 19:59:57.173 - Destroying ENet thread pool
+5492: 19:59:57.173 - Destroying Business logic thread pool
+5492: 19:59:57.173 - Destroying I/O thread pool
+5492: 19:59:57.173 - Destroying ENet buffer allocator
+5492: 19:59:57.173 - Destroying TCP buffer allocator
+5492: 19:59:57.173 - Destroying TCP socket allocator
+5492: 19:59:57.173 - Destroying ENet inbound socket allocator
+5492: 19:59:57.173 - Destroying ENet outbound socket allocator
+5492: 19:59:57.173 - Shutdown complete...
+4836: 19:59:57.173 - Service shutting down
+4836: 19:59:57.173 - Service shut down complete
+5316: 20:00:13.373 - ---
+5316: 20:00:13.373 - Service: "Photon Socket Server" starting
+5316: 20:00:13.373 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+5316: 20:00:13.373 - Will produce at most: 10 crash dumps
+5316: 20:00:13.373 - Action: run as service
+2740: 20:00:13.373 - Server Starting...
+2740: 20:00:13.373 -    Tick count: 3315754 (wraps in: 49.6719 days)
+2740: 20:00:13.373 - Tick count 64: 3315754
+2740: 20:00:13.373 - Photon Version: 3.4.5.2597
+2740: 20:00:13.373 - PID: 4760
+2740: 20:00:13.373 - Current directory is: C:\Windows\system32
+2740: 20:00:13.373 - Changing current directory to: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64
+2740: 20:00:13.373 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+2740: 20:00:13.373 - Will NOT log unimportant exceptions
+2740: 20:00:13.383 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+2740: 20:00:13.383 - Shutdown timeout enabled: 30000ms
+2740: 20:00:13.383 - Starting I/O thread pool with 2 threads
+2740: 20:00:13.383 - Using Standard allocator
+2740: 20:00:13.383 - Max message size: 512000
+2740: 20:00:13.383 - Starting business logic thread pool with the following settings
+2740: 20:00:13.383 - InitialThreads: 4 threads
+2740: 20:00:13.383 - MinThreads: 4 threads
+2740: 20:00:13.383 - Thread pool is fixed size
+2740: 20:00:13.383 - Starting ENet thread pool with the following settings
+2740: 20:00:13.383 - InitialThreads: 2 threads
+2740: 20:00:13.383 - MinThreads: 2 threads
+2740: 20:00:13.383 - Thread pool is fixed size
+2740: 20:00:13.383 - OnlyDispatchTimers: False
+2740: 20:00:13.383 - S2S: flow control: Max pending writes: 50
+2740: 20:00:13.383 - S2S: flow control: Max queued buffers: 200
+2740: 20:00:13.383 - S2S: flow control: Max pending writes MUX: 500
+2740: 20:00:13.383 - S2S: flow control: Max queued buffers MUX: 2000
+2740: 20:00:13.383 - S2S: MaxInboundMessageSize: 512000
+2740: 20:00:13.383 - S2S: MaxOutboundMessageSize: 512000
+2740: 20:00:13.383 - S2S: No inactivity timeout
+2740: 20:00:13.393 - WebSocket S2S: MaxInboundMessageSize: 512000
+2740: 20:00:13.393 - WebSocket S2S: MaxOutboundMessageSize: 512000
+2740: 20:00:13.393 - WebSocket S2S: No inactivity timeout
+2740: 20:00:13.393 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+2740: 20:00:13.393 - Per peer bandwidth limit
+2740: 20:00:13.393 - Transmit Rate Limit: 256 KB/Sec
+2740: 20:00:13.393 - Limit period: 200ms
+2740: 20:00:13.393 - Limit per period: 52428 bytes
+2740: 20:00:13.393 - Max queued data for transmission per peer: 512000 bytes
+2740: 20:00:13.393 - Minimum retransmit timeout: 200
+2740: 20:00:13.393 - Minimum ENet timeout: 5000ms
+2740: 20:00:13.393 - Maximum ENet timeout: 30000ms
+2740: 20:00:13.393 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+2740: 20:00:13.393 - Outbound ENet: MaxInboundMessageSize: 512000
+2740: 20:00:13.393 - Outbound ENet: MaxOutboundMessageSize: 512000
+2740: 20:00:13.393 - GetRuntime - About to load CLR - versions available:
+2740: 20:00:13.393 - v2.0.50727
+2740: 20:00:13.393 - v4.0.30319
+2740: 20:00:13.393 - Configuration requests: "v2.0.50727"
+2740: 20:00:13.393 - About to load version: "v2.0.50727"
+2740: 20:00:13.413 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+2740: 20:00:13.413 - CLRBaseDirectory set to "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy"
+2740: 20:00:13.413 - Optimising event broadcast for 20 or more peers
+2740: 20:00:13.423 - Start: About to load CLR - versions available:
+2740: 20:00:13.423 - v2.0.50727
+2740: 20:00:13.423 - v4.0.30319
+2740: 20:00:13.423 - No preference in configuration file, will load latest.
+2740: 20:00:13.423 - About to load version: "v4.0.30319"
+2740: 20:00:13.423 - Loaded version: "v4.0.30319"
+2740: 20:00:13.863 - Photon host runtime loaded
+2740: 20:00:22.073 - License is valid.
+2740: 20:00:22.073 - Licensed for 100 concurrent connections.
+2740: 20:00:22.073 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+2740: 20:00:22.073 - ENet: Per peer bandwidth limit
+2740: 20:00:22.073 - ENet: Transmit Rate Limit: 256 KB/Sec
+2740: 20:00:22.073 - ENet: Limit period: 200ms
+2740: 20:00:22.073 - ENet: Limit per period: 52428 bytes
+2740: 20:00:22.073 - ENet: Max queued data for transmission per peer: 512000 bytes
+2740: 20:00:22.073 - ENet: Minimum retransmit timeout: 200
+2740: 20:00:22.073 - ENet: Minimum timeout: 5000ms
+2740: 20:00:22.073 - ENet: Maximum timeout: 30000ms
+2740: 20:00:22.073 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+2740: 20:00:22.073 - About to load application: Lite from Lite
+2740: 20:00:22.073 - Auto restart is enabled for application, existing connections will be terminated during restart
+2740: 20:00:22.073 - Application will restart 1000ms after the last change detected
+2740: 20:00:22.073 - Application will restart if files matching the following are changed: "dll;config"
+2740: 20:00:22.073 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6116: 20:00:22.083 - Waiting to shutdown Photon.
+2740: 20:00:22.283 - Taking reference on default app domain
+2740: 20:00:22.423 - Application: "Lite" started in app domain: 2
+2740: 20:00:22.423 - About to load application: LiteLobby from LiteLobby
+2740: 20:00:22.423 - Auto restart is enabled for application, existing connections will be terminated during restart
+2740: 20:00:22.423 - Application will restart 1000ms after the last change detected
+2740: 20:00:22.423 - Application will restart if files matching the following are changed: "dll;config"
+2740: 20:00:22.423 - Application will NOT restart if files matching the following are changed: "log4net.config"
+2740: 20:00:22.603 - Taking reference on default app domain
+2740: 20:00:22.753 - Application: "LiteLobby" started in app domain: 3
+2740: 20:00:22.753 - About to load application: MmoDemo from Photon.MmoDemo.Server
+2740: 20:00:22.753 - Auto restart is enabled for application, existing connections will be terminated during restart
+2740: 20:00:22.753 - Application will restart 1000ms after the last change detected
+2740: 20:00:22.753 - Application will restart if files matching the following are changed: "dll;config"
+2740: 20:00:22.753 - Application will NOT restart if files matching the following are changed: "log4net.config"
+2740: 20:00:22.943 - Taking reference on default app domain
+2740: 20:00:23.063 - Application: "MmoDemo" started in app domain: 4
+2740: 20:00:23.063 - About to load application: CounterPublisher from CounterPublisher
+2740: 20:00:23.063 - Auto restart is enabled for application, existing connections will be terminated during restart
+2740: 20:00:23.063 - Application will restart 1000ms after the last change detected
+2740: 20:00:23.063 - Application will restart if files matching the following are changed: "dll;config"
+2740: 20:00:23.063 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6116: 20:00:23.083 - Waiting to shutdown Photon.
+2740: 20:00:23.263 - Taking reference on default app domain
+2740: 20:00:23.403 - Application: "CounterPublisher" started in app domain: 5
+2740: 20:00:23.403 - About to load application: ATServer from ATServer
+2740: 20:00:23.403 - Auto restart is enabled for application, existing connections will be terminated during restart
+2740: 20:00:23.403 - Application will restart 1000ms after the last change detected
+2740: 20:00:23.403 - Application will restart if files matching the following are changed: "dll;config"
+2740: 20:00:23.403 - Application will NOT restart if files matching the following are changed: "log4net.config"
+2740: 20:00:23.603 - Taking reference on default app domain
+2740: 20:00:23.733 - Application: "ATServer" started in app domain: 6
+2740: 20:00:23.733 - Adding TCP listener on :0.0.0.0: 4530 with a listen backlog of: 150
+2740: 20:00:23.733 - TCP inactivity timeout: 10000ms
+2740: 20:00:23.733 - TCP disconnect timeout: 120000ms
+2740: 20:00:23.733 - MaxInboundMessageSize: 512000
+2740: 20:00:23.733 - MaxOutboundMessageSize: 512000
+2740: 20:00:23.733 - Serving policy file requests from: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+2740: 20:00:23.733 - MaxInboundMessageSize: 512000
+2740: 20:00:23.733 - MaxOutboundMessageSize: 512000
+2740: 20:00:23.733 - UDP address specified as:0.0.0.0 adding listener to each available IPv4 address
+2740: 20:00:23.733 - Adding UDP listener on :127.0.0.1: 5055 with a listen backlog of: 500
+2740: 20:00:23.733 - Adding WebSocket TCP listener on :0.0.0.0: 9090 with a listen backlog of: 150
+2740: 20:00:23.733 - Nagle disabled
+2740: 20:00:23.733 - TCP inactivity timeout: 10000ms
+2740: 20:00:23.733 - MaxInboundMessageSize: 512000
+2740: 20:00:23.733 - MaxOutboundMessageSize: 512000
+2740: 20:00:23.733 - Forcing all applications ids to: "Lite"
+2740: 20:00:23.733 - Will accept ANY sub-protocols from the client
+2740: 20:00:23.733 - No automatic WebSocket ping
+2740: 20:00:23.733 - Adding Policy File listener on :0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+2740: 20:00:23.733 - TCP inactivity timeout: 10000ms
+2740: 20:00:23.733 - Adding Policy File listener on :0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy-silverlight.xml"
+2740: 20:00:23.733 - TCP inactivity timeout: 10000ms
+2740: 20:00:23.773 - Service is running...
+6116: 20:00:24.083 - Waiting to shutdown Photon.
+6116: 20:00:25.083 - Waiting to shutdown Photon.
+6116: 20:00:26.083 - Waiting to shutdown Photon.
+6116: 20:00:27.083 - Shutdown request from PhotonHostRuntime: Connect to Photon License Server failed, can't verify floating license.
+6116: 20:00:27.083 - Shutdown requested.
+2740: 20:00:27.093 - Service is stopped...
+2740: 20:00:27.093 - Server shutting down...
+2740: 20:00:27.093 - Shutdown monitoring enabled, 30000ms before process abort
+2740: 20:00:27.093 - Notifying CLR applications of shutdown...
+2740: 20:00:27.093 - RequestApplicationStop: 6
+2740: 20:00:27.093 - RequestApplicationStop: 5
+2740: 20:00:27.103 - RequestApplicationStop: 2
+2740: 20:00:27.113 - RequestApplicationStop: 3
+2740: 20:00:27.113 - RequestApplicationStop: 4
+2740: 20:00:27.123 - RequestStop: defalt app domain
+2740: 20:00:27.123 - Shutting down WebSocket Outbound Connection Manager...
+2740: 20:00:27.123 - Shutting down TCP Outbound Connection Manager...
+2740: 20:00:27.123 - Shutting down ENet Outbound Connection Manager...
+2740: 20:00:27.123 - Disconnecting all outbound peers...
+2740: 20:00:27.123 - Shutting down ENet host...
+2740: 20:00:27.123 - Disconnecting all peers...
+2740: 20:00:27.123 - Shutting down socket servers...
+2740: 20:00:27.123 - Shutting down ENet thread pool...
+2740: 20:00:27.123 - Shutting down TCP inactivity timers...
+2740: 20:00:27.123 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+2740: 20:00:27.123 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+2740: 20:00:27.123 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+2740: 20:00:27.123 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+2740: 20:00:27.123 - WaitingForShutdownToComplete: TCP:0.0.0.0:4530
+2740: 20:00:27.123 - OnShutdownCompleted: TCP:0.0.0.0:4530
+2740: 20:00:27.123 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+2740: 20:00:27.123 - OnShutdownCompleted: UDP:127.0.0.1:5055
+2740: 20:00:27.123 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9090
+2740: 20:00:27.123 - OnShutdownCompleted: WebSocket:0.0.0.0:9090
+2740: 20:00:27.123 - Shutting down CLR applications...
+2740: 20:00:27.153 - ATServer:6 - Stop() failed.
+Exception:
+System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1130
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Stop()
+   at PhotonHostRuntime.PhotonDomainManager.Stop()
+5824: 20:00:27.163 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+2740: 20:00:27.173 - Shutting down business logic thread pool...
+2740: 20:00:27.173 - Shutting down I/O thread pool...
+2740: 20:00:27.173 - Destroying servers
+2740: 20:00:27.173 - Destroying WebSocket Outbound Connection Manager
+2740: 20:00:27.173 - Destroying TCP Outbound Connection Manager
+2740: 20:00:27.173 - Destroying TCP inactivity timer
+2740: 20:00:27.173 - Destroying ENet timer wheel
+2740: 20:00:27.173 - Destroying ENet host
+2740: 20:00:27.173 - Destroying ENet outbound host
+2740: 20:00:27.173 - Destroying HTTP inactivity timer
+2740: 20:00:27.173 - Destroying HTTP host
+2740: 20:00:27.173 - Flushing ENET buffer allocator...
+2740: 20:00:27.173 - Flushing TCP buffer handle allocator...
+2740: 20:00:27.173 - Flushing stream socket allocator...
+2740: 20:00:27.173 - Flushing inbound datagram socket allocator...
+2740: 20:00:27.173 - Flushing outbound datagram socket allocator...
+2740: 20:00:27.173 - Destroying CLR dispatcher
+2740: 20:00:27.173 - Destroying CLR applications
+2740: 20:00:27.173 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+5832: 20:00:27.203 - Unloading Domain: ApplicationName = 'CounterPublisher', DomainId='5'
+5824: 20:00:27.203 - CManagedHost::OnDomainUnload() - 5
+5824: 20:00:27.223 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+5832: 20:00:27.253 - Unloading Domain: ApplicationName = 'Lite', DomainId='2'
+5824: 20:00:27.253 - CManagedHost::OnDomainUnload() - 2
+5824: 20:00:27.263 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+5832: 20:00:27.293 - Unloading Domain: ApplicationName = 'LiteLobby', DomainId='3'
+5824: 20:00:27.293 - CManagedHost::OnDomainUnload() - 3
+5824: 20:00:27.293 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+5832: 20:00:27.313 - Unloading Domain: ApplicationName = 'MmoDemo', DomainId='4'
+5824: 20:00:27.313 - CManagedHost::OnDomainUnload() - 4
+2740: 20:00:37.173 - ~CCLRApplicationCollection() - CLR failed to release all COM objects. Photon peers and application sinks may have leaked
+2740: 20:00:37.173 - ~CManagedHost() - Release default app domain
+2740: 20:00:37.173 - CManagedHost::OnDomainUnload() - 1
+2740: 20:00:37.173 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+2740: 20:00:47.173 - ~CManagedHost() - Timeout waiting for CLR shutdown, we may report Photon peer leaks...
+2740: 20:00:47.173 - Release domain manager: 6
+2740: 20:00:47.173 - ~CManagedHost
+2740: 20:00:47.173 - Destroying ENet thread pool
+2740: 20:00:47.173 - Destroying Business logic thread pool
+2740: 20:00:47.173 - Destroying I/O thread pool
+2740: 20:00:47.173 - Destroying ENet buffer allocator
+2740: 20:00:47.173 - Destroying TCP buffer allocator
+2740: 20:00:47.173 - Destroying TCP socket allocator
+2740: 20:00:47.173 - Destroying ENet inbound socket allocator
+2740: 20:00:47.173 - Destroying ENet outbound socket allocator
+2740: 20:00:47.173 - Shutdown complete...
+5316: 20:00:47.173 - Service shutting down
+5316: 20:00:47.173 - Service shut down complete
+4644: 20:01:56.903 - ---
+4644: 20:01:56.903 - Service: "Photon Socket Server" starting
+4644: 20:01:56.903 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+4644: 20:01:56.903 - Will produce at most: 10 crash dumps
+4644: 20:01:56.903 - Action: run as service
+6000: 20:01:56.913 - Server Starting...
+6000: 20:01:56.913 -    Tick count: 3419292 (wraps in: 49.6707 days)
+6000: 20:01:56.913 - Tick count 64: 3419292
+6000: 20:01:56.913 - Photon Version: 3.4.5.2597
+6000: 20:01:56.913 - PID: 5676
+6000: 20:01:56.913 - Current directory is: C:\Windows\system32
+6000: 20:01:56.913 - Changing current directory to: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64
+6000: 20:01:56.913 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+6000: 20:01:56.913 - Will NOT log unimportant exceptions
+6000: 20:01:56.913 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+6000: 20:01:56.913 - Shutdown timeout enabled: 30000ms
+6000: 20:01:56.913 - Starting I/O thread pool with 2 threads
+6000: 20:01:56.913 - Using Standard allocator
+6000: 20:01:56.913 - Max message size: 512000
+6000: 20:01:56.923 - Starting business logic thread pool with the following settings
+6000: 20:01:56.923 - InitialThreads: 4 threads
+6000: 20:01:56.923 - MinThreads: 4 threads
+6000: 20:01:56.923 - Thread pool is fixed size
+6000: 20:01:56.923 - Starting ENet thread pool with the following settings
+6000: 20:01:56.923 - InitialThreads: 2 threads
+6000: 20:01:56.923 - MinThreads: 2 threads
+6000: 20:01:56.923 - Thread pool is fixed size
+6000: 20:01:56.923 - OnlyDispatchTimers: False
+6000: 20:01:56.923 - S2S: flow control: Max pending writes: 50
+6000: 20:01:56.923 - S2S: flow control: Max queued buffers: 200
+6000: 20:01:56.923 - S2S: flow control: Max pending writes MUX: 500
+6000: 20:01:56.923 - S2S: flow control: Max queued buffers MUX: 2000
+6000: 20:01:56.923 - S2S: MaxInboundMessageSize: 512000
+6000: 20:01:56.923 - S2S: MaxOutboundMessageSize: 512000
+6000: 20:01:56.923 - S2S: No inactivity timeout
+6000: 20:01:56.923 - WebSocket S2S: MaxInboundMessageSize: 512000
+6000: 20:01:56.923 - WebSocket S2S: MaxOutboundMessageSize: 512000
+6000: 20:01:56.923 - WebSocket S2S: No inactivity timeout
+6000: 20:01:56.933 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+6000: 20:01:56.933 - Per peer bandwidth limit
+6000: 20:01:56.933 - Transmit Rate Limit: 256 KB/Sec
+6000: 20:01:56.933 - Limit period: 200ms
+6000: 20:01:56.933 - Limit per period: 52428 bytes
+6000: 20:01:56.933 - Max queued data for transmission per peer: 512000 bytes
+6000: 20:01:56.933 - Minimum retransmit timeout: 200
+6000: 20:01:56.933 - Minimum ENet timeout: 5000ms
+6000: 20:01:56.933 - Maximum ENet timeout: 30000ms
+6000: 20:01:56.933 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+6000: 20:01:56.933 - Outbound ENet: MaxInboundMessageSize: 512000
+6000: 20:01:56.933 - Outbound ENet: MaxOutboundMessageSize: 512000
+6000: 20:01:56.933 - GetRuntime - About to load CLR - versions available:
+6000: 20:01:56.933 - v2.0.50727
+6000: 20:01:56.933 - v4.0.30319
+6000: 20:01:56.933 - Configuration requests: "v2.0.50727"
+6000: 20:01:56.933 - About to load version: "v2.0.50727"
+6000: 20:01:56.953 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+6000: 20:01:56.953 - CLRBaseDirectory set to "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy"
+6000: 20:01:56.953 - Optimising event broadcast for 20 or more peers
+6000: 20:01:56.953 - Start: About to load CLR - versions available:
+6000: 20:01:56.953 - v2.0.50727
+6000: 20:01:56.953 - v4.0.30319
+6000: 20:01:56.953 - No preference in configuration file, will load latest.
+6000: 20:01:56.953 - About to load version: "v4.0.30319"
+6000: 20:01:56.953 - Loaded version: "v4.0.30319"
+6000: 20:01:57.423 - Photon host runtime loaded
+6000: 20:02:05.793 - License is valid.
+6000: 20:02:05.793 - Licensed for 100 concurrent connections.
+6000: 20:02:05.803 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+6000: 20:02:05.803 - ENet: Per peer bandwidth limit
+6000: 20:02:05.803 - ENet: Transmit Rate Limit: 256 KB/Sec
+6000: 20:02:05.803 - ENet: Limit period: 200ms
+6000: 20:02:05.803 - ENet: Limit per period: 52428 bytes
+6000: 20:02:05.803 - ENet: Max queued data for transmission per peer: 512000 bytes
+6000: 20:02:05.803 - ENet: Minimum retransmit timeout: 200
+6000: 20:02:05.803 - ENet: Minimum timeout: 5000ms
+6000: 20:02:05.803 - ENet: Maximum timeout: 30000ms
+6000: 20:02:05.803 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+6000: 20:02:05.803 - About to load application: Lite from Lite
+6000: 20:02:05.803 - Auto restart is enabled for application, existing connections will be terminated during restart
+6000: 20:02:05.803 - Application will restart 1000ms after the last change detected
+6000: 20:02:05.803 - Application will restart if files matching the following are changed: "dll;config"
+6000: 20:02:05.803 - Application will NOT restart if files matching the following are changed: "log4net.config"
+4072: 20:02:05.813 - Waiting to shutdown Photon.
+6000: 20:02:06.013 - Taking reference on default app domain
+6000: 20:02:06.163 - Application: "Lite" started in app domain: 2
+6000: 20:02:06.163 - About to load application: LiteLobby from LiteLobby
+6000: 20:02:06.163 - Auto restart is enabled for application, existing connections will be terminated during restart
+6000: 20:02:06.163 - Application will restart 1000ms after the last change detected
+6000: 20:02:06.163 - Application will restart if files matching the following are changed: "dll;config"
+6000: 20:02:06.163 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6000: 20:02:06.363 - Taking reference on default app domain
+6000: 20:02:06.503 - Application: "LiteLobby" started in app domain: 3
+6000: 20:02:06.503 - About to load application: MmoDemo from Photon.MmoDemo.Server
+6000: 20:02:06.503 - Auto restart is enabled for application, existing connections will be terminated during restart
+6000: 20:02:06.503 - Application will restart 1000ms after the last change detected
+6000: 20:02:06.503 - Application will restart if files matching the following are changed: "dll;config"
+6000: 20:02:06.503 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6000: 20:02:06.723 - Taking reference on default app domain
+4072: 20:02:06.813 - Waiting to shutdown Photon.
+6000: 20:02:06.853 - Application: "MmoDemo" started in app domain: 4
+6000: 20:02:06.853 - About to load application: CounterPublisher from CounterPublisher
+6000: 20:02:06.853 - Auto restart is enabled for application, existing connections will be terminated during restart
+6000: 20:02:06.853 - Application will restart 1000ms after the last change detected
+6000: 20:02:06.853 - Application will restart if files matching the following are changed: "dll;config"
+6000: 20:02:06.853 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6000: 20:02:07.053 - Taking reference on default app domain
+6000: 20:02:07.183 - Application: "CounterPublisher" started in app domain: 5
+6000: 20:02:07.183 - About to load application: ATServer from ATServer
+6000: 20:02:07.183 - Auto restart is enabled for application, existing connections will be terminated during restart
+6000: 20:02:07.183 - Application will restart 1000ms after the last change detected
+6000: 20:02:07.183 - Application will restart if files matching the following are changed: "dll;config"
+6000: 20:02:07.183 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6000: 20:02:07.383 - Taking reference on default app domain
+6000: 20:02:07.513 - Application: "ATServer" started in app domain: 6
+6000: 20:02:07.513 - Adding TCP listener on :0.0.0.0: 4530 with a listen backlog of: 150
+6000: 20:02:07.513 - TCP inactivity timeout: 10000ms
+6000: 20:02:07.513 - TCP disconnect timeout: 120000ms
+6000: 20:02:07.513 - MaxInboundMessageSize: 512000
+6000: 20:02:07.513 - MaxOutboundMessageSize: 512000
+6000: 20:02:07.513 - Serving policy file requests from: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+6000: 20:02:07.513 - MaxInboundMessageSize: 512000
+6000: 20:02:07.513 - MaxOutboundMessageSize: 512000
+6000: 20:02:07.513 - UDP address specified as:0.0.0.0 adding listener to each available IPv4 address
+6000: 20:02:07.513 - Adding UDP listener on :127.0.0.1: 5055 with a listen backlog of: 500
+6000: 20:02:07.513 - Adding WebSocket TCP listener on :0.0.0.0: 9090 with a listen backlog of: 150
+6000: 20:02:07.513 - Nagle disabled
+6000: 20:02:07.513 - TCP inactivity timeout: 10000ms
+6000: 20:02:07.513 - MaxInboundMessageSize: 512000
+6000: 20:02:07.513 - MaxOutboundMessageSize: 512000
+6000: 20:02:07.513 - Forcing all applications ids to: "Lite"
+6000: 20:02:07.513 - Will accept ANY sub-protocols from the client
+6000: 20:02:07.513 - No automatic WebSocket ping
+6000: 20:02:07.513 - Adding Policy File listener on :0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+6000: 20:02:07.513 - TCP inactivity timeout: 10000ms
+6000: 20:02:07.513 - Adding Policy File listener on :0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy-silverlight.xml"
+6000: 20:02:07.513 - TCP inactivity timeout: 10000ms
+6000: 20:02:07.553 - Service is running...
+4072: 20:02:07.813 - Waiting to shutdown Photon.
+4072: 20:02:08.813 - Waiting to shutdown Photon.
+4072: 20:02:09.813 - Waiting to shutdown Photon.
+4072: 20:02:10.813 - Shutdown request from PhotonHostRuntime: Connect to Photon License Server failed, can't verify floating license.
+4072: 20:02:10.813 - Shutdown requested.
+6000: 20:02:10.823 - Service is stopped...
+6000: 20:02:10.823 - Server shutting down...
+6000: 20:02:10.823 - Shutdown monitoring enabled, 30000ms before process abort
+6000: 20:02:10.823 - Notifying CLR applications of shutdown...
+6000: 20:02:10.823 - RequestApplicationStop: 6
+6000: 20:02:10.833 - RequestApplicationStop: 5
+6000: 20:02:10.833 - RequestApplicationStop: 2
+6000: 20:02:10.843 - RequestApplicationStop: 3
+6000: 20:02:10.853 - RequestApplicationStop: 4
+6000: 20:02:10.853 - RequestStop: defalt app domain
+6000: 20:02:10.853 - Shutting down WebSocket Outbound Connection Manager...
+6000: 20:02:10.853 - Shutting down TCP Outbound Connection Manager...
+6000: 20:02:10.853 - Shutting down ENet Outbound Connection Manager...
+6000: 20:02:10.853 - Disconnecting all outbound peers...
+6000: 20:02:10.853 - Shutting down ENet host...
+6000: 20:02:10.853 - Disconnecting all peers...
+6000: 20:02:10.853 - Shutting down socket servers...
+6000: 20:02:10.853 - Shutting down ENet thread pool...
+6000: 20:02:10.853 - Shutting down TCP inactivity timers...
+6000: 20:02:10.853 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+6000: 20:02:10.853 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+6000: 20:02:10.853 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+6000: 20:02:10.853 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+6000: 20:02:10.853 - WaitingForShutdownToComplete: TCP:0.0.0.0:4530
+6000: 20:02:10.853 - OnShutdownCompleted: TCP:0.0.0.0:4530
+6000: 20:02:10.853 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+6000: 20:02:10.853 - OnShutdownCompleted: UDP:127.0.0.1:5055
+6000: 20:02:10.853 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9090
+6000: 20:02:10.853 - OnShutdownCompleted: WebSocket:0.0.0.0:9090
+6000: 20:02:10.853 - Shutting down CLR applications...
+6000: 20:02:10.873 - ATServer:6 - Stop() failed.
+Exception:
+System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1130
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Stop()
+   at PhotonHostRuntime.PhotonDomainManager.Stop()
+5144: 20:02:10.883 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+6000: 20:02:10.903 - Shutting down business logic thread pool...
+6000: 20:02:10.903 - Shutting down I/O thread pool...
+6000: 20:02:10.903 - Destroying servers
+6000: 20:02:10.903 - Destroying WebSocket Outbound Connection Manager
+6000: 20:02:10.903 - Destroying TCP Outbound Connection Manager
+6000: 20:02:10.903 - Destroying TCP inactivity timer
+6000: 20:02:10.903 - Destroying ENet timer wheel
+6000: 20:02:10.903 - Destroying ENet host
+6000: 20:02:10.903 - Destroying ENet outbound host
+6000: 20:02:10.903 - Destroying HTTP inactivity timer
+6000: 20:02:10.903 - Destroying HTTP host
+6000: 20:02:10.903 - Flushing ENET buffer allocator...
+6000: 20:02:10.903 - Flushing TCP buffer handle allocator...
+6000: 20:02:10.903 - Flushing stream socket allocator...
+6000: 20:02:10.903 - Flushing inbound datagram socket allocator...
+6000: 20:02:10.903 - Flushing outbound datagram socket allocator...
+6000: 20:02:10.903 - Destroying CLR dispatcher
+6000: 20:02:10.903 - Destroying CLR applications
+6000: 20:02:10.903 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+4228: 20:02:10.923 - Unloading Domain: ApplicationName = 'CounterPublisher', DomainId='5'
+5144: 20:02:10.923 - CManagedHost::OnDomainUnload() - 5
+5144: 20:02:10.933 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+4228: 20:02:10.973 - Unloading Domain: ApplicationName = 'Lite', DomainId='2'
+5144: 20:02:10.973 - CManagedHost::OnDomainUnload() - 2
+5144: 20:02:10.973 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+4228: 20:02:11.013 - Unloading Domain: ApplicationName = 'LiteLobby', DomainId='3'
+5144: 20:02:11.013 - CManagedHost::OnDomainUnload() - 3
+5144: 20:02:11.013 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+4228: 20:02:11.033 - Unloading Domain: ApplicationName = 'MmoDemo', DomainId='4'
+5144: 20:02:11.033 - CManagedHost::OnDomainUnload() - 4
+6000: 20:02:20.903 - ~CCLRApplicationCollection() - CLR failed to release all COM objects. Photon peers and application sinks may have leaked
+6000: 20:02:20.903 - ~CManagedHost() - Release default app domain
+6000: 20:02:20.903 - CManagedHost::OnDomainUnload() - 1
+6000: 20:02:20.903 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+6000: 20:02:30.912 - ~CManagedHost() - Timeout waiting for CLR shutdown, we may report Photon peer leaks...
+6000: 20:02:30.912 - Release domain manager: 6
+6000: 20:02:30.912 - ~CManagedHost
+6000: 20:02:30.912 - Destroying ENet thread pool
+6000: 20:02:30.912 - Destroying Business logic thread pool
+6000: 20:02:30.912 - Destroying I/O thread pool
+6000: 20:02:30.912 - Destroying ENet buffer allocator
+6000: 20:02:30.912 - Destroying TCP buffer allocator
+6000: 20:02:30.912 - Destroying TCP socket allocator
+6000: 20:02:30.912 - Destroying ENet inbound socket allocator
+6000: 20:02:30.912 - Destroying ENet outbound socket allocator
+6000: 20:02:30.912 - Shutdown complete...
+4644: 20:02:30.912 - Service shutting down
+4644: 20:02:30.912 - Service shut down complete
+5244: 20:05:43.879 - ---
+5244: 20:05:43.879 - Service: "Photon Socket Server" starting
+5244: 20:05:43.879 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+5244: 20:05:43.879 - Will produce at most: 10 crash dumps
+5244: 20:05:43.879 - Action: run as service
+1288: 20:05:43.879 - Server Starting...
+1288: 20:05:43.879 -    Tick count: 3646258 (wraps in: 49.6681 days)
+1288: 20:05:43.879 - Tick count 64: 3646258
+1288: 20:05:43.879 - Photon Version: 3.4.5.2597
+1288: 20:05:43.879 - PID: 4452
+1288: 20:05:43.879 - Current directory is: C:\Windows\system32
+1288: 20:05:43.879 - Changing current directory to: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64
+1288: 20:05:43.879 - Config File: C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\bin_Win64\PhotonServer.config
+1288: 20:05:43.879 - Will NOT log unimportant exceptions
+1288: 20:05:43.889 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+1288: 20:05:43.889 - Shutdown timeout enabled: 30000ms
+1288: 20:05:43.889 - Starting I/O thread pool with 2 threads
+1288: 20:05:43.889 - Using Standard allocator
+1288: 20:05:43.889 - Max message size: 512000
+1288: 20:05:43.889 - Starting business logic thread pool with the following settings
+1288: 20:05:43.889 - InitialThreads: 4 threads
+1288: 20:05:43.889 - MinThreads: 4 threads
+1288: 20:05:43.889 - Thread pool is fixed size
+1288: 20:05:43.889 - Starting ENet thread pool with the following settings
+1288: 20:05:43.889 - InitialThreads: 2 threads
+1288: 20:05:43.889 - MinThreads: 2 threads
+1288: 20:05:43.889 - Thread pool is fixed size
+1288: 20:05:43.889 - OnlyDispatchTimers: False
+1288: 20:05:43.889 - S2S: flow control: Max pending writes: 50
+1288: 20:05:43.889 - S2S: flow control: Max queued buffers: 200
+1288: 20:05:43.889 - S2S: flow control: Max pending writes MUX: 500
+1288: 20:05:43.889 - S2S: flow control: Max queued buffers MUX: 2000
+1288: 20:05:43.889 - S2S: MaxInboundMessageSize: 512000
+1288: 20:05:43.889 - S2S: MaxOutboundMessageSize: 512000
+1288: 20:05:43.889 - S2S: No inactivity timeout
+1288: 20:05:43.899 - WebSocket S2S: MaxInboundMessageSize: 512000
+1288: 20:05:43.899 - WebSocket S2S: MaxOutboundMessageSize: 512000
+1288: 20:05:43.899 - WebSocket S2S: No inactivity timeout
+1288: 20:05:43.899 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+1288: 20:05:43.899 - Per peer bandwidth limit
+1288: 20:05:43.899 - Transmit Rate Limit: 256 KB/Sec
+1288: 20:05:43.899 - Limit period: 200ms
+1288: 20:05:43.899 - Limit per period: 52428 bytes
+1288: 20:05:43.899 - Max queued data for transmission per peer: 512000 bytes
+1288: 20:05:43.899 - Minimum retransmit timeout: 200
+1288: 20:05:43.899 - Minimum ENet timeout: 5000ms
+1288: 20:05:43.899 - Maximum ENet timeout: 30000ms
+1288: 20:05:43.899 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+1288: 20:05:43.899 - Outbound ENet: MaxInboundMessageSize: 512000
+1288: 20:05:43.899 - Outbound ENet: MaxOutboundMessageSize: 512000
+1288: 20:05:43.899 - GetRuntime - About to load CLR - versions available:
+1288: 20:05:43.899 - v2.0.50727
+1288: 20:05:43.899 - v4.0.30319
+1288: 20:05:43.899 - Configuration requests: "v2.0.50727"
+1288: 20:05:43.899 - About to load version: "v2.0.50727"
+1288: 20:05:43.919 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+1288: 20:05:43.919 - CLRBaseDirectory set to "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy"
+1288: 20:05:43.919 - Optimising event broadcast for 20 or more peers
+1288: 20:05:43.929 - Start: About to load CLR - versions available:
+1288: 20:05:43.929 - v2.0.50727
+1288: 20:05:43.929 - v4.0.30319
+1288: 20:05:43.929 - No preference in configuration file, will load latest.
+1288: 20:05:43.929 - About to load version: "v4.0.30319"
+1288: 20:05:43.929 - Loaded version: "v4.0.30319"
+1288: 20:05:44.399 - Photon host runtime loaded
+1288: 20:05:52.939 - License is valid.
+1288: 20:05:52.939 - Licensed for 100 concurrent connections.
+1288: 20:05:52.939 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+1288: 20:05:52.939 - ENet: Per peer bandwidth limit
+1288: 20:05:52.939 - ENet: Transmit Rate Limit: 256 KB/Sec
+1288: 20:05:52.939 - ENet: Limit period: 200ms
+1288: 20:05:52.939 - ENet: Limit per period: 52428 bytes
+1288: 20:05:52.939 - ENet: Max queued data for transmission per peer: 512000 bytes
+1288: 20:05:52.939 - ENet: Minimum retransmit timeout: 200
+1288: 20:05:52.939 - ENet: Minimum timeout: 5000ms
+1288: 20:05:52.939 - ENet: Maximum timeout: 30000ms
+1288: 20:05:52.939 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+1288: 20:05:52.939 - About to load application: Lite from Lite
+1288: 20:05:52.939 - Auto restart is enabled for application, existing connections will be terminated during restart
+1288: 20:05:52.939 - Application will restart 1000ms after the last change detected
+1288: 20:05:52.939 - Application will restart if files matching the following are changed: "dll;config"
+1288: 20:05:52.939 - Application will NOT restart if files matching the following are changed: "log4net.config"
+6044: 20:05:52.949 - Waiting to shutdown Photon.
+1288: 20:05:53.159 - Taking reference on default app domain
+1288: 20:05:53.299 - Application: "Lite" started in app domain: 2
+1288: 20:05:53.299 - About to load application: LiteLobby from LiteLobby
+1288: 20:05:53.299 - Auto restart is enabled for application, existing connections will be terminated during restart
+1288: 20:05:53.299 - Application will restart 1000ms after the last change detected
+1288: 20:05:53.299 - Application will restart if files matching the following are changed: "dll;config"
+1288: 20:05:53.299 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1288: 20:05:53.489 - Taking reference on default app domain
+1288: 20:05:53.639 - Application: "LiteLobby" started in app domain: 3
+1288: 20:05:53.639 - About to load application: MmoDemo from Photon.MmoDemo.Server
+1288: 20:05:53.639 - Auto restart is enabled for application, existing connections will be terminated during restart
+1288: 20:05:53.639 - Application will restart 1000ms after the last change detected
+1288: 20:05:53.639 - Application will restart if files matching the following are changed: "dll;config"
+1288: 20:05:53.639 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1288: 20:05:53.829 - Taking reference on default app domain
+6044: 20:05:53.949 - Waiting to shutdown Photon.
+1288: 20:05:53.959 - Application: "MmoDemo" started in app domain: 4
+1288: 20:05:53.959 - About to load application: CounterPublisher from CounterPublisher
+1288: 20:05:53.959 - Auto restart is enabled for application, existing connections will be terminated during restart
+1288: 20:05:53.959 - Application will restart 1000ms after the last change detected
+1288: 20:05:53.959 - Application will restart if files matching the following are changed: "dll;config"
+1288: 20:05:53.959 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1288: 20:05:54.149 - Taking reference on default app domain
+1288: 20:05:54.309 - Application: "CounterPublisher" started in app domain: 5
+1288: 20:05:54.309 - About to load application: ATServer from ATServer
+1288: 20:05:54.309 - Auto restart is enabled for application, existing connections will be terminated during restart
+1288: 20:05:54.309 - Application will restart 1000ms after the last change detected
+1288: 20:05:54.309 - Application will restart if files matching the following are changed: "dll;config"
+1288: 20:05:54.309 - Application will NOT restart if files matching the following are changed: "log4net.config"
+1288: 20:05:54.519 - Taking reference on default app domain
+1288: 20:05:54.719 - Application: "ATServer" started in app domain: 6
+1288: 20:05:54.719 - Adding TCP listener on :0.0.0.0: 4530 with a listen backlog of: 150
+1288: 20:05:54.719 - TCP inactivity timeout: 10000ms
+1288: 20:05:54.719 - TCP disconnect timeout: 120000ms
+1288: 20:05:54.719 - MaxInboundMessageSize: 512000
+1288: 20:05:54.719 - MaxOutboundMessageSize: 512000
+1288: 20:05:54.719 - Serving policy file requests from: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+1288: 20:05:54.719 - MaxInboundMessageSize: 512000
+1288: 20:05:54.719 - MaxOutboundMessageSize: 512000
+1288: 20:05:54.719 - UDP address specified as:0.0.0.0 adding listener to each available IPv4 address
+1288: 20:05:54.719 - Adding UDP listener on :127.0.0.1: 5055 with a listen backlog of: 500
+1288: 20:05:54.719 - Adding WebSocket TCP listener on :0.0.0.0: 9090 with a listen backlog of: 150
+1288: 20:05:54.719 - Nagle disabled
+1288: 20:05:54.719 - TCP inactivity timeout: 10000ms
+1288: 20:05:54.719 - MaxInboundMessageSize: 512000
+1288: 20:05:54.719 - MaxOutboundMessageSize: 512000
+1288: 20:05:54.719 - Forcing all applications ids to: "Lite"
+1288: 20:05:54.719 - Will accept ANY sub-protocols from the client
+1288: 20:05:54.719 - No automatic WebSocket ping
+1288: 20:05:54.719 - Adding Policy File listener on :0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy.xml"
+1288: 20:05:54.719 - TCP inactivity timeout: 10000ms
+1288: 20:05:54.719 - Adding Policy File listener on :0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "C:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\deploy\Policy\assets\socket-policy-silverlight.xml"
+1288: 20:05:54.719 - TCP inactivity timeout: 10000ms
+1288: 20:05:54.759 - Service is running...
+6044: 20:05:54.949 - Waiting to shutdown Photon.
+6044: 20:05:55.949 - Waiting to shutdown Photon.
+6044: 20:05:56.949 - Waiting to shutdown Photon.
+6044: 20:05:57.949 - Waiting to shutdown Photon.
+6044: 20:05:58.949 - Shutdown request from PhotonHostRuntime: Connect to Photon License Server failed, can't verify floating license.
+6044: 20:05:58.949 - Shutdown requested.
+1288: 20:05:58.949 - Service is stopped...
+1288: 20:05:58.949 - Server shutting down...
+1288: 20:05:58.949 - Shutdown monitoring enabled, 30000ms before process abort
+1288: 20:05:58.949 - Notifying CLR applications of shutdown...
+1288: 20:05:58.949 - RequestApplicationStop: 6
+1288: 20:05:58.949 - RequestApplicationStop: 5
+1288: 20:05:58.959 - RequestApplicationStop: 2
+1288: 20:05:58.959 - RequestApplicationStop: 3
+1288: 20:05:58.969 - RequestApplicationStop: 4
+1288: 20:05:58.969 - RequestStop: defalt app domain
+1288: 20:05:58.969 - Shutting down WebSocket Outbound Connection Manager...
+1288: 20:05:58.969 - Shutting down TCP Outbound Connection Manager...
+1288: 20:05:58.969 - Shutting down ENet Outbound Connection Manager...
+1288: 20:05:58.969 - Disconnecting all outbound peers...
+1288: 20:05:58.979 - Shutting down ENet host...
+1288: 20:05:58.979 - Disconnecting all peers...
+1288: 20:05:58.979 - Shutting down socket servers...
+1288: 20:05:58.979 - Shutting down ENet thread pool...
+1288: 20:05:58.979 - Shutting down TCP inactivity timers...
+1288: 20:05:58.979 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+1288: 20:05:58.979 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+1288: 20:05:58.979 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+1288: 20:05:58.979 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+1288: 20:05:58.979 - WaitingForShutdownToComplete: TCP:0.0.0.0:4530
+1288: 20:05:58.979 - OnShutdownCompleted: TCP:0.0.0.0:4530
+1288: 20:05:58.979 - WaitingForShutdownToComplete: UDP:127.0.0.1:5055
+1288: 20:05:58.979 - OnShutdownCompleted: UDP:127.0.0.1:5055
+1288: 20:05:58.979 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9090
+1288: 20:05:58.979 - OnShutdownCompleted: WebSocket:0.0.0.0:9090
+1288: 20:05:58.979 - Shutting down CLR applications...
+1288: 20:05:58.999 - ATServer:6 - Stop() failed.
+Exception:
+System.NotImplementedException: The method or operation is not implemented.
+   at ATServer.PhotonServer.TearDown() in c:\Users\Tim\Documents\GitHub\AVTown\PhotonServer\src-server\ATServer\ATServer\PhotonServer.cs:line 36
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1130
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Stop()
+   at PhotonHostRuntime.PhotonDomainManager.Stop()
+4568: 20:05:59.009 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+1288: 20:05:59.029 - Shutting down business logic thread pool...
+1288: 20:05:59.029 - Shutting down I/O thread pool...
+1288: 20:05:59.029 - Destroying servers
+1288: 20:05:59.029 - Destroying WebSocket Outbound Connection Manager
+1288: 20:05:59.029 - Destroying TCP Outbound Connection Manager
+1288: 20:05:59.029 - Destroying TCP inactivity timer
+1288: 20:05:59.029 - Destroying ENet timer wheel
+1288: 20:05:59.029 - Destroying ENet host
+1288: 20:05:59.039 - Destroying ENet outbound host
+1288: 20:05:59.039 - Destroying HTTP inactivity timer
+1288: 20:05:59.039 - Destroying HTTP host
+1288: 20:05:59.039 - Flushing ENET buffer allocator...
+1288: 20:05:59.039 - Flushing TCP buffer handle allocator...
+1288: 20:05:59.039 - Flushing stream socket allocator...
+1288: 20:05:59.039 - Flushing inbound datagram socket allocator...
+1288: 20:05:59.039 - Flushing outbound datagram socket allocator...
+1288: 20:05:59.039 - Destroying CLR dispatcher
+1288: 20:05:59.039 - Destroying CLR applications
+1288: 20:05:59.039 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+4636: 20:05:59.049 - Unloading Domain: ApplicationName = 'CounterPublisher', DomainId='5'
+4568: 20:05:59.239 - CManagedHost::OnDomainUnload() - 5
+4568: 20:05:59.249 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+4636: 20:05:59.299 - Unloading Domain: ApplicationName = 'Lite', DomainId='2'
+4568: 20:05:59.299 - CManagedHost::OnDomainUnload() - 2
+4568: 20:05:59.309 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+4636: 20:05:59.339 - Unloading Domain: ApplicationName = 'LiteLobby', DomainId='3'
+4568: 20:05:59.339 - CManagedHost::OnDomainUnload() - 3
+4568: 20:05:59.349 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+4636: 20:05:59.359 - Unloading Domain: ApplicationName = 'MmoDemo', DomainId='4'
+4568: 20:05:59.359 - CManagedHost::OnDomainUnload() - 4
+1288: 20:06:09.039 - ~CCLRApplicationCollection() - CLR failed to release all COM objects. Photon peers and application sinks may have leaked
+1288: 20:06:09.039 - ~CManagedHost() - Release default app domain
+1288: 20:06:09.039 - CManagedHost::OnDomainUnload() - 1
+1288: 20:06:09.039 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+1288: 20:06:19.039 - ~CManagedHost() - Timeout waiting for CLR shutdown, we may report Photon peer leaks...
+1288: 20:06:19.039 - Release domain manager: 6
+1288: 20:06:19.039 - ~CManagedHost
+1288: 20:06:19.039 - Destroying ENet thread pool
+1288: 20:06:19.039 - Destroying Business logic thread pool
+1288: 20:06:19.039 - Destroying I/O thread pool
+1288: 20:06:19.039 - Destroying ENet buffer allocator
+1288: 20:06:19.039 - Destroying TCP buffer allocator
+1288: 20:06:19.039 - Destroying TCP socket allocator
+1288: 20:06:19.039 - Destroying ENet inbound socket allocator
+1288: 20:06:19.039 - Destroying ENet outbound socket allocator
+1288: 20:06:19.039 - Shutdown complete...
+5244: 20:06:19.039 - Service shutting down
+5244: 20:06:19.039 - Service shut down complete

@@ -150,6 +150,7 @@ public class ServerConnector : MonoBehaviour
 
     public void SendOperation(OperationCode operationCode, Dictionary<byte, object> parameter, bool sendReliable, byte channelId)
     {
+        Debug.Log("Sending op");
         if (debuggingEnabled)
         {
             var builder = new StringBuilder();
