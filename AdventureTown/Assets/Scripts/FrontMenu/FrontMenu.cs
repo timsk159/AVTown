@@ -9,33 +9,17 @@ public class FrontMenu : MonoBehaviour
 
     void Start()
     {
-        ServerConnector.Instance.OnLoginSuccessful += Server_OnLoginSuccessful;
-        ServerConnector.Instance.OnLoginFailed += Server_OnLoginFailed;
     }
 
     void OnDestroy()
     {
-        ServerConnector.Instance.OnLoginSuccessful -= Server_OnLoginSuccessful;
-        ServerConnector.Instance.OnLoginFailed -= Server_OnLoginFailed;
-    }
-
-    void Server_OnLoginSuccessful()
-    {
-        //Setup account, load into game.
-        Application.LoadLevel("Game");
-    }
-
-    void Server_OnLoginFailed()
-    {
-        BroadcastMessage("ErrorAnim");
-        //Show Error msg
     }
 
 	public void PlayButtonPressed()
 	{
         if (!string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(password))
         {
-            ServerConnector.Instance.TryLogin(userName, password);
+
         }
 	}
 
