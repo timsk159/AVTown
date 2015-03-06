@@ -81,6 +81,31 @@
      <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBPinchToScale.cs" />
      <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBQuickSetup.cs" />
      <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBTwistToRotate.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkEnterLicenseKey.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkInternalHelper.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkNetworkP2P.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkNetworkView.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkRegisterPrefabs.cs" />
+     <Compile Include="Assets\Plugins\uLink\Basic Scripts\uLinkServerAuthentication.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkChatGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkClientGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkConsoleGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkInstantiateForOthers.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkInstantiatePool.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkObjectLabel.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkObservedList.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkOverrideNetworkDestroy.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkOverrideSettings.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkP2PConnector.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSimpleServer.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothCharacter.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothPlatformer.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothRigidbody.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkSmoothRigidbodyImproved.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkStatisticsGUI.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkStrictCharacter.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkStrictPlatformer.cs" />
+     <Compile Include="Assets\Plugins\uLink\Utility Scripts\uLinkTargetFrameRateFix.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
@@ -91,6 +116,7 @@
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\Plugins\uLink\Assembly\uLink.xml" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
@@ -100,6 +126,9 @@
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="uLink">
+ <HintPath>C:/Users/Tim/Documents/GitHub/AVTown/AdventureTown/Assets/Plugins/uLink/Assembly/uLink.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

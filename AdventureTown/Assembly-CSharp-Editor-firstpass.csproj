@@ -63,8 +63,25 @@
      <Compile Include="Assets\Plugins\Editor\FingerGestures\SwipeRecognizerInspector.cs" />
      <Compile Include="Assets\Plugins\Editor\FingerGestures\TapRecognizerInspector.cs" />
      <Compile Include="Assets\Plugins\Editor\FingerGestures\TwistRecognizerInspector.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkEditorUtility.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkEnterLicenseKeyEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkIconSelector.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkKeyGenerator.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkLicenseHelper.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkNetworkP2PEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkNetworkViewEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkOnlineResources.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkRegisterPrefabsBrowser.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkRegisterPrefabsEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkServerAuthenticationEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkSettingsEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkStatisticsViewer.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkToolExecutor.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkUnityConverter.cs" />
+     <Compile Include="Assets\Plugins\Editor\uLink\Scripts\uLinkUpdateChecker.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\Plugins\uLink\Assembly\uLink.xml" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
@@ -104,6 +121,9 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="uLink">
+ <HintPath>C:/Users/Tim/Documents/GitHub/AVTown/AdventureTown/Assets/Plugins/uLink/Assembly/uLink.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
