@@ -56,10 +56,6 @@
  <HintPath>C:/Users/Tim/Documents/GitHub/AVTown/AdventureTownServer/Assets/Plugins/uLink/Assembly/uLink.dll</HintPath>
  </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{C1C53606-619B-487D-8E71-8AA019438CFB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	   Other similar extension points exist, see Microsoft.Common.targets.
