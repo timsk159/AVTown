@@ -25,10 +25,7 @@ public class ServerConnector : uLink.MonoBehaviour
             Security.PrefetchSocketPolicy(uLink.MasterServer.ipAddress, 843);
         }
         uLink.Network.Connect(serverIP, port);
-        Debug.Log("Connected?");
     }
-    
-
 
     void uLink_OnDisconnectedFromServer(uLink.NetworkDisconnection mode)
     {
