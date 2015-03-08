@@ -1,41 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Server : uLink.MonoBehaviour
+namespace Server
 {
-    public int port = 7100;
-	public int maxConnections = 64;
-    public int targetFrameRate = 60;
-
-    void Start()
+    public class Server : uLink.MonoBehaviour
     {
-        Application.targetFrameRate = targetFrameRate;
+        public int port = 7100;
+        public int maxConnections = 64;
+        public int targetFrameRate = 60;
 
-        uLink.Network.InitializeServer(maxConnections, port);
-    }
+        void Start()
+        {
+            Application.targetFrameRate = targetFrameRate;
 
-    void uLink_OnServerInitialized()
-    {
-        Debug.Log("Server successfully started on port " + uLink.Network.listenPort);
-    }
+            uLink.Network.InitializeServer(maxConnections, port);
+        }
 
-    void uLink_OnPlayerDisconnected(uLink.NetworkPlayer player)
-    {
-        uLink.Network.DestroyPlayerObjects(player);
-        uLink.Network.RemoveRPCs(player);
+        void uLink_OnServerInitialized()
+        {
+            Debug.Log("Server successfully started on port " + uLink.Network.listenPort);
+        }
 
-        // this is not really necessery unless you are removing NetworkViews without calling uLink.Network.Destroy
-        uLink.Network.RemoveInstantiates(player);
-    }
+        void uLink_OnPlayerDisconnected(uLink.NetworkPlayer player)
+        {
+            uLink.Network.DestroyPlayerObjects(player);
+            uLink.Network.RemoveRPCs(player);
 
-    void uLink_OnPlayerApproval(uLink.NetworkPlayerApproval playerApproval)
-    {
-        Debug.Log("Approving player connection");
-        playerApproval.Approve();
-    }
+            // this is not really necessery unless you are removing NetworkViews without calling uLink.Network.Destroy
+            uLink.Network.RemoveInstantiates(player);
+        }
 
-    void uLink_OnPlayerConnected(uLink.NetworkPlayer player)
-    {
-        Debug.Log("Connection recieved from: " + player.ipAddress);
+        void uLink_OnPlayerApproval(uLink.NetworkPlayerApproval playerApproval)
+        {
+            Debug.Log("Approving player connection");
+            playerApproval.Approve();
+        }
+
+        void uLink_OnPlayerConnected(uLink.NetworkPlayer player)
+        {
+            Debug.Log("Connection recieved from: " + player.ipAddress);
+        }
     }
 }
