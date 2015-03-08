@@ -9,17 +9,22 @@ public class FrontMenu : MonoBehaviour
 
     void Start()
     {
+        ClientToServerConnector.Instance.OnLoginSuccess += OnLoginSuccess;
+        ClientToServerConnector.Instance.OnLoginFailed += OnLoginFailed;
     }
 
     void OnDestroy()
     {
+        ClientToServerConnector.Instance.OnLoginSuccess -= OnLoginSuccess;
+        ClientToServerConnector.Instance.OnLoginFailed -= OnLoginFailed;
     }
 
 	public void PlayButtonPressed()
 	{
         if (!string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(password))
         {
-
+            print("Logging in");
+            ClientToServerConnector.Instance.SendLoginAttempt(userName, password);
         }
 	}
 
@@ -45,4 +50,14 @@ public class FrontMenu : MonoBehaviour
 	{
 		password = input;
 	}
+
+    void OnLoginFailed()
+    {
+
+    }
+
+    void OnLoginSuccess()
+    {
+        StartCoroutine(LevelLoader.Instance.LoadLevel("Game"));
+    }
 }

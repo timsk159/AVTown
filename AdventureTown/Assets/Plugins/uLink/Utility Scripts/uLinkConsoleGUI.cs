@@ -134,7 +134,7 @@ internal class uLinkConsoleGUI : MonoBehaviour
 			SetVisible(true);
 		}
 
-		UnityEngine.Application.RegisterLogCallback(CaptureLog);
+        Application.logMessageReceived += CaptureLog;
 	}
 
 	void Update()
@@ -303,11 +303,11 @@ internal class uLinkConsoleGUI : MonoBehaviour
 		{
 			if (visibility)
 			{
-				oldLockCursor = Screen.lockCursor;
+				oldLockCursor = Cursor.lockState == CursorLockMode.Locked;
 			}
 			else
 			{
-				Screen.lockCursor = oldLockCursor;
+				Cursor.lockState = oldLockCursor ? CursorLockMode.Locked : CursorLockMode.None;
 			}
 		}
 	}

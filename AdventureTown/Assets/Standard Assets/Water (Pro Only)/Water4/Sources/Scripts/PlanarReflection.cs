@@ -135,8 +135,8 @@ public class PlanarReflection : MonoBehaviour
 				sb.material = ((Skybox)cam.GetComponent(typeof(Skybox))).material;				
 			}	
 		}
-							
-		GL.SetRevertBackfacing(true);		
+
+        GL.invertCulling = true;	
 							
 		Transform reflectiveSurface = transform; //waterHeight;
 			
@@ -166,9 +166,9 @@ public class PlanarReflection : MonoBehaviour
 		Vector3 euler = cam.transform.eulerAngles;
 		reflectCamera.transform.eulerAngles = new Vector3(-euler.x, euler.y, euler.z);	
 														
-		reflectCamera.Render();	
-		
-		GL.SetRevertBackfacing(false);					
+		reflectCamera.Render();
+
+        GL.invertCulling = false;		
 	}
 	
 	private void SaneCameraSettings(Camera helperCam) 

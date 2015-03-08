@@ -96,6 +96,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 437643173}
   - 114: {fileID: 437643172}
+  - 114: {fileID: 437643174}
+  - 114: {fileID: 437643175}
   m_Layer: 0
   m_Name: Server
   m_TagString: Untagged
@@ -129,3 +131,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &437643174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 437643171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e58e8deee99b684c8a67b101fed3036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterDataPrefabData:
+    serverPrefab: {fileID: 162482, guid: 67bc2010dca64bf4ab8fa2bb7ae65444, type: 2}
+    clientPrefab: {fileID: 177670, guid: d4f55fa2ca6db254a90b4364db5a0cc2, type: 2}
+    proxyPrefab: {fileID: 0}
+    startPosition: {x: 0, y: 0, z: 0}
+    startRotation: {x: 0, y: 0, z: 0}
+--- !u!114 &437643175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 437643171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9be5429cbf387c4f9140f7d1908fb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proxyPrefab: 
+  ownerPrefab: 
+  serverPrefab: 
+  _parent: {fileID: 0}
+  _childIndex: -1
+  _children: []
+  stateSynchronization: 0
+  securable: 3
+  observed: {fileID: 0}
+  _manualViewID: 1
+  rpcReceiver: 2
+  listOfGameObjects: []
+  _prefabRoot: {fileID: 0}

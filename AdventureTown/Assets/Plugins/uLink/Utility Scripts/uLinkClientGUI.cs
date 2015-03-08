@@ -44,9 +44,6 @@ public class uLinkClientGUI : uLink.MonoBehaviour
 
 	public bool dontDestroyOnLoad = false;
 
-	public bool lockCursor = true;
-	public bool hideCursor = true;
-
 	void Awake()
 	{
 #if !UNITY_2_6 && !UNITY_2_6_1
@@ -71,7 +68,7 @@ public class uLinkClientGUI : uLink.MonoBehaviour
 
 	void OnGUI()
 	{
-		if (uLink.Network.lastError == uLink.NetworkConnectionError.NoError && uLink.Network.status == uLink.NetworkStatus.Connected && uLink.NetworkView.FindByOwner(uLink.Network.player).Length != 0 && (!lockCursor || Screen.lockCursor))
+		if (uLink.Network.lastError == uLink.NetworkConnectionError.NoError && uLink.Network.status == uLink.NetworkStatus.Connected && uLink.NetworkView.FindByOwner(uLink.Network.player).Length != 0)
 		{
 			EnableGUI(false);
 			return;
@@ -137,19 +134,7 @@ public class uLinkClientGUI : uLink.MonoBehaviour
 		}
 		else if (uLink.Network.status == uLink.NetworkStatus.Connected)
 		{
-			if (uLink.NetworkView.FindByOwner(uLink.Network.player).Length != 0)
-			{
-				if (lockCursor)
-				{
-					busyDoingWhat = "Click to start playing";
-
-					if (Input.GetMouseButton(0)) Screen.lockCursor = true;
-				}
-			}
-			else
-			{
-				busyDoingWhat = "Instantiating...";
-			}
+			busyDoingWhat = "Instantiating...";
 		}
 		else if (uLink.Network.status == uLink.NetworkStatus.Connecting)
 		{
@@ -374,9 +359,6 @@ public class uLinkClientGUI : uLink.MonoBehaviour
 
 	void EnableGUI(bool enabled)
 	{
-		if (lockCursor) Screen.lockCursor = !enabled;
-		if (hideCursor) Cursor.visible = enabled;
-
 		foreach (UnityEngine.MonoBehaviour component in enableWhenGUI)
 		{
 			component.enabled = enabled;
